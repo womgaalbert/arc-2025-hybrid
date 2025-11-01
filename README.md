@@ -62,7 +62,7 @@ The system is designed for robustness, interpretability, and efficiency under re
 
 🚀 Getting Started
 # Clone the repo
-git clone https://github.com/your-username/arc-2025-hybrid.git
+git clone https://github.com/womgaalbert/arc-2025-hybrid.git
 cd arc-2025-hybrid
 
 # (Optional) Create and activate a virtual environment
