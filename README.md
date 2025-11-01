@@ -12,7 +12,7 @@ Symbolic reasoning using a custom DSL and program synthesis engine,
 
 Few-shot/meta-learning techniques for rapid task adaptation.
 
-Key features:
+## Key features:
 
 Multimodal grid representations (image + object list)
 
@@ -25,27 +25,32 @@ Dataset analysis and visualizations
 Evaluation metrics aligned with ARC Prize standards (Top-1 / Top-3 accuracy)
 
 📁 /models — PyTorch-based neural architectures
+
 📁 /symbolic — DSL definition and symbolic reasoning modules
+
 📁 /tasks — ARC dataset parsing and preprocessing
+
 📁 /evaluation — Metrics, diagnostics, and ablation tools
+
 📁 /notebooks — Exploratory analysis and result visualizations
 
-🧠 ARC-2025: Hybrid Neuro-Symbolic Reasoning for the ARC Prize
+
+🧠 **ARC-2025: Hybrid Neuro-Symbolic Reasoning for the ARC Prize**
 
 This repository hosts our Capstone Project for the ARC Prize 2025
  challenge. ARC (Abstraction and Reasoning Corpus) is a benchmark for general intelligence, evaluating AI systems' ability to reason, generalize, and abstract from a few visual examples.
 
-✨ Project Overview
+✨ ## Project Overview
 
 We propose a hybrid neuro-symbolic model that combines:
 
-🧠 Neural Networks (PyTorch) for visual pattern recognition
+🧠 **Neural Networks (PyTorch) for visual pattern recognition**
 
-🧮 Symbolic Reasoning via DSL for abstract logic and transformations
+🧮 **Symbolic Reasoning via DSL for abstract logic and transformations**
 
-🔁 Few-shot and Meta-learning to generalize to novel, unseen tasks
+🔁 **Few-shot and Meta-learning to generalize to novel, unseen tasks**
 
-🧩 Multimodal fusion using both image and structured representations
+🧩 **Multimodal fusion using both image and structured representations**
 
 The system is designed for robustness, interpretability, and efficiency under resource constraints (e.g., Kaggle notebook environment).
 
@@ -68,13 +73,13 @@ The system is designed for robustness, interpretability, and efficiency under re
 
 └── README.md       # Project overview and getting started
 
-🚀 Getting Started
-# Clone the repo
+🚀 # Getting Started
+## Clone the repo
 git clone https://github.com/womgaalbert/arc-2025-hybrid.git
 
 cd arc-2025-hybrid
 
-# (Optional) Create and activate a virtual environment
+## (Optional) Create and activate a virtual environment
 python -m venv .env
 
 source .env/bin/activate  # or .env\\Scripts\\activate for Windows
