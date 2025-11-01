@@ -51,22 +51,32 @@ The system is designed for robustness, interpretability, and efficiency under re
 
 📂 Repository Structure
 ├── models/         # PyTorch CNN architectures and meta-learning modules
+
 ├── symbolic/       # Domain-specific language (DSL) and program synthesis logic
+
 ├── tasks/          # ARC dataset parsing, preprocessing, and loaders
+
 ├── evaluation/     # Metric tracking, leaderboard simulation, diagnostics
+
 ├── notebooks/      # Jupyter notebooks for analysis, testing, visualization
+
 ├── configs/        # Training configs and symbolic search settings
+
 ├── arc_utils/      # Utility scripts and augmentation tools
+
 ├── assets/         # Task images, visualizations, and demo outputs
+
 └── README.md       # Project overview and getting started
 
 🚀 Getting Started
 # Clone the repo
 git clone https://github.com/womgaalbert/arc-2025-hybrid.git
+
 cd arc-2025-hybrid
 
 # (Optional) Create and activate a virtual environment
 python -m venv .env
+
 source .env/bin/activate  # or .env\\Scripts\\activate for Windows
 
 # Install requirements
